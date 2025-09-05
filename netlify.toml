@@ -1,0 +1,10 @@
+# Netlify build configuration for a static SPA
+[build]
+  # If you don't have a build step, Netlify will deploy index.html in repository root.
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

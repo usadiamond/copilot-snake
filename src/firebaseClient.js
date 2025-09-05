@@ -14,13 +14,12 @@ import {
 import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "%FIREBASE_API_KEY%",
-  authDomain: "%FIREBASE_AUTH_DOMAIN%",
-  databaseURL: "%FIREBASE_DATABASE_URL%",
-  projectId: "%FIREBASE_PROJECT_ID%",
-  storageBucket: "%FIREBASE_STORAGE_BUCKET%",
-  messagingSenderId: "%FIREBASE_MESSAGING_SENDER_ID%",
-  appId: "%FIREBASE_APP_ID%",
+  apiKey: "AIzaSyDjcooViPoRmt0mSI65_s7GnIEorPEfcZI",
+  authDomain: "fir-snake-38abc.firebaseapp.com",
+  projectId: "fir-snake-38abc",
+  storageBucket: "fir-snake-38abc.firebasestorage.app",
+  messagingSenderId: "437612710721",
+  appId: "1:437612710721:web:450362c4b10f937917efc0"
 };
 
 const app = initializeApp(firebaseConfig);

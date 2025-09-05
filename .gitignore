@@ -1,0 +1,7 @@
+# Firebase related
+functions/node_modules/
+.firebase/
+.env.local
+
+# Netlify build output
+dist/
